@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+service-account*.json
+credentials.json
+
+# Local data and large geospatial files
+data/*
+!data/README.md
+*.csv
+*.tif
+*.tiff
+*.zip
+*.parquet
+
+# Model checkpoints
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Generated outputs
+results/*
+!results/README.md
+!results/images/
+results/images/*
+!results/images/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
